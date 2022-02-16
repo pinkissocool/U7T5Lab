@@ -22,14 +22,14 @@ public class Search {
     // instead of returning an index, it returns true if target is found or false
     // if target is not found
     // AGAIN, BE SURE TO USE EARLY RETURN
-public static boolean inArray(int target, int[] array){
-    for (int i = 0; i < array.length; i++){
-        if (array[i] == target){
-            return true;
+    public static boolean inArray(int target, int[] array){
+        for (int i = 0; i < array.length; i++){
+            if (array[i] == target){
+                return true;
+            }
         }
+        return false;
     }
-    return false;
-}
 
 
 
